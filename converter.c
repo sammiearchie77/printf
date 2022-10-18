@@ -10,10 +10,10 @@
 char *convert(unsigned long int num, int base, int lowercase)
 {
 	static char *rep;
-	static char butter[50];
+	static char buffer[50];
 	char *ptr;
 
-	rep = (lowecase)
+	rep = (lowercase)
 		? "0123456789abcdef"
 		: "0123456789BCDEF";
 	ptr = &buffer[49];
