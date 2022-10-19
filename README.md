@@ -25,8 +25,8 @@ along with regular characters
 
 ## Examples
 
-* ```_printf("Hello, Holberton\n")``` *prints "Hello, Holberton", followed by a new line*
-* ```_printf("%s", "Hello")``` *prints "Hello"*
+* ```_printf("Hello, ALX Schhool\n")``` *prints "Hello, ALX Schhool", followed by a new line*
+* ```_printf("%s\n", "Best\nSchool")``` *prints "Best\x0ASchool"*
 * ```_printf("This is a number: %d", 98)``` *prints "This is a number: 98"*
 
 ---
